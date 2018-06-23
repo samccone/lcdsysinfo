@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "@types/w3c-web-usb": "^1.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "prettier": "^1.13.5"
+  },
+  "scripts": {
+    "format": "prettier --write *.ts **/*.ts",
+    "build": "tsc -p tsconfig.json && browserify demo/index.js -o demo/bundle.js"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es5",
+    "noImplicitAny": true,
+    "inlineSourceMap": true,
+    "noEmitOnError": false,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "lib": ["es2017", "es2015", "dom"],
+  },
+  "include": ["demo/index.ts"]
+}
